@@ -12,6 +12,7 @@ const EditProduct = () => {
 
     useEffect(() => {
         dispatch(GetMe())
+        document.title = 'Edit Product'
     }, [dispatch])
 
     useEffect(() => {

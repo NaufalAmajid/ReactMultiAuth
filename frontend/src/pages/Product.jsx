@@ -12,6 +12,7 @@ const Product = () => {
 
     useEffect(() => {
         dispatch(GetMe())
+        document.title = 'Product'
     }, [dispatch])
 
     useEffect(() => {

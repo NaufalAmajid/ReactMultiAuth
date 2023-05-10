@@ -12,6 +12,7 @@ const User = () => {
 
     useEffect(() => {
         dispatch(GetMe())
+        document.title = 'User'
     }, [dispatch])
 
     useEffect(() => {

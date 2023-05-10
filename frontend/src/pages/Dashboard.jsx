@@ -12,6 +12,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     dispatch(GetMe())
+    document.title = 'Dashboard'
   }, [dispatch])
 
   useEffect(() => {

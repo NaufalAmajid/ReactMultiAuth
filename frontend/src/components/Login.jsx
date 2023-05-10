@@ -17,6 +17,7 @@ const Login = () => {
             navigate('/dashboard')
         }
         dispatch(reset())
+        document.title = 'Login'
     }, [user, isSuccess, dispatch, navigate])
 
     const Auth = (e) => {
